@@ -14,5 +14,12 @@ namespace Calculator_rewrite
 
             return additionResult;
         }
+
+        public static int Subtraction(int firstNumber, int secondNumber)
+        {
+            int subtractionResult = firstNumber - secondNumber;
+
+            return subtractionResult;
+        }
     }
 }
