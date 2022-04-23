@@ -28,6 +28,10 @@ namespace Calculator_rewrite
                     int additionResult = Calculator.Addition(firstnumber, secondNumber);
                     Console.WriteLine($"{firstnumber} + {secondNumber} = {additionResult}");
                     break;
+                case "subtraction":
+                    int subtractionResult = Calculator.Subtraction(firstnumber, secondNumber);
+                    Console.WriteLine($"{firstnumber} - {secondNumber} = {subtractionResult}");
+                    break;
             }
 
             Console.ReadLine();
