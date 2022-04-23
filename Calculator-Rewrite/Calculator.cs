@@ -10,7 +10,9 @@ namespace Calculator_rewrite
     {
         public static int Addition(int firstNumber, int secondNumber)
         {
-            return firstNumber + secondNumber;
+            int additionResult = firstNumber + secondNumber;
+
+            return additionResult;
         }
     }
 }

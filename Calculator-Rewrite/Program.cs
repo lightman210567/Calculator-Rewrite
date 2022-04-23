@@ -26,6 +26,7 @@ namespace Calculator_rewrite
             {
                 case "addition":
                     int additionResult = Calculator.Addition(firstnumber, secondNumber);
+                    Console.WriteLine($"{firstnumber} + {secondNumber} = {additionResult}");
                     break;
             }
         }
