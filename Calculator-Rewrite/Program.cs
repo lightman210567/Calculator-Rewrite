@@ -11,6 +11,10 @@ namespace Calculator_rewrite
 
             string userInput;
 
+            Console.WriteLine("Please enter the first number");
+            userInput = Console.ReadLine();
+            int.TryParse(userInput, out firstnumber);
+
             Console.WriteLine("Please select one of the following operations\nAddition\nSubtraction\nMultiplication\nDivision");
             string operation = Console.ReadLine().ToLower();
 
