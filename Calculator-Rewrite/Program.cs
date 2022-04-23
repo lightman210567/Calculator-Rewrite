@@ -25,6 +25,7 @@ namespace Calculator_rewrite
             switch (operation)
             {
                 case "addition":
+                    int additionResult = Calculator.Addition(firstnumber, secondNumber);
                     break;
             }
         }
