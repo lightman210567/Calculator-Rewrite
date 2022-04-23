@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculator_Rewrite
+namespace Calculator_rewrite
 {
     internal class Calculator
     {
