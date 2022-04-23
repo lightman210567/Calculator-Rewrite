@@ -19,7 +19,7 @@ namespace Calculator_rewrite
             userInput = Console.ReadLine();
             int.TryParse(userInput, out secondNumber);
 
-            Console.WriteLine("Please select one of the following operations\nAddition");
+            Console.WriteLine("Please select one of the following operations\nAddition\nSubtraction");
             string operation = Console.ReadLine().ToLower();
 
             switch (operation)
