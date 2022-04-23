@@ -8,6 +8,9 @@ namespace Calculator_Rewrite
 {
     internal class Calculator
     {
-
+        public static int Addition(int firstNumber, int secondNumber)
+        {
+            return firstNumber + secondNumber;
+        }
     }
 }
