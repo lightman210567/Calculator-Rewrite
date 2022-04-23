@@ -29,6 +29,8 @@ namespace Calculator_rewrite
                     Console.WriteLine($"{firstnumber} + {secondNumber} = {additionResult}");
                     break;
             }
+
+            Console.ReadLine();
         }
     }
 }
