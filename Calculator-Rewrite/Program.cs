@@ -6,14 +6,14 @@ namespace Calculator_rewrite
     {
         public static void Main(string[] args)
         {
-            int firstnumber;
+            int firstNumber;
             int secondNumber;
 
             string userInput;
 
             Console.WriteLine("Please enter the first number");
             userInput = Console.ReadLine();
-            int.TryParse(userInput, out firstnumber);
+            int.TryParse(userInput, out firstNumber);
 
             Console.WriteLine("Please enter the second number");
             userInput = Console.ReadLine();
@@ -25,12 +25,12 @@ namespace Calculator_rewrite
             switch (operation)
             {
                 case "addition":
-                    int additionResult = Calculator.Addition(firstnumber, secondNumber);
-                    Console.WriteLine($"{firstnumber} + {secondNumber} = {additionResult}");
+                    int additionResult = Calculator.Addition(firstNumber, secondNumber);
+                    Console.WriteLine($"{firstNumber} + {secondNumber} = {additionResult}");
                     break;
                 case "subtraction":
-                    int subtractionResult = Calculator.Subtraction(firstnumber, secondNumber);
-                    Console.WriteLine($"{firstnumber} - {secondNumber} = {subtractionResult}");
+                    int subtractionResult = Calculator.Subtraction(firstNumber, secondNumber);
+                    Console.WriteLine($"{firstNumber} - {secondNumber} = {subtractionResult}");
                     break;
             }
 
