@@ -28,5 +28,12 @@ namespace Calculator_rewrite
 
             return multiplicationResult;
         }
+
+        public static int Division(int firstNumber, int secondNumber)
+        {
+            int divisionResult = firstNumber / secondNumber;
+
+            return divisionResult;
+        }
     }
 }
