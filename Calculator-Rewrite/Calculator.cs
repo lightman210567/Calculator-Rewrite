@@ -21,5 +21,12 @@ namespace Calculator_rewrite
 
             return subtractionResult;
         }
+
+        public static int Multiplication(int firstNumber, int secondNumber)
+        {
+            int multiplicationResult = firstNumber * secondNumber;
+
+            return multiplicationResult;
+        }
     }
 }
