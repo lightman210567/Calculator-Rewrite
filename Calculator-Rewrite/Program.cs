@@ -36,6 +36,10 @@ namespace Calculator_rewrite
                     int multiplicationResult = Calculator.Multiplication(firstNumber, secondNumber);
                     Console.WriteLine($"{firstNumber} multiplied by {secondNumber} = {multiplicationResult}");
                     break;
+                case "division":
+                    int divisionResult = Calculator.Division(firstNumber, secondNumber);
+                    Console.WriteLine($"{firstNumber} divided by {secondNumber} = {divisionResult}");
+                    break;
             }
 
             Console.ReadLine();
