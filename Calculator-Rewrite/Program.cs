@@ -32,6 +32,10 @@ namespace Calculator_rewrite
                     int subtractionResult = Calculator.Subtraction(firstNumber, secondNumber);
                     Console.WriteLine($"{firstNumber} - {secondNumber} = {subtractionResult}");
                     break;
+                case "multiplication":
+                    int multiplicationResult = Calculator.Multiplication(firstNumber, secondNumber);
+                    Console.WriteLine($"{firstNumber} multiplied by {secondNumber} = {multiplicationResult}");
+                    break;
             }
 
             Console.ReadLine();
